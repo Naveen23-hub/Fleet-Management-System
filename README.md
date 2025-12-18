@@ -68,11 +68,17 @@ The codebase is organized into modular packages:
 Open a terminal in the `src` folder and run:
 ```bash
 javac -d ../bin ui/Main.java simulation/FleetSimulatorGUI.java Vehicles/*.java Management/*.java Interfaces/*.java Exceptions/*.java Management/Comparators/*.java
+```
 
-2. Run Module 1 (Fleet Manager CLI)
+
+### 2. Run Module 1 (Fleet Manager CLI)
 Access the 24-option menu for fleet management:
+```bash
 java -cp ../bin ui.Main
+```
 
-3. Run Module 2 (Highway Simulator GUI)
+### 3. Run Module 2 (Highway Simulator GUI)
 Launch the graphical simulation:
+```bash
 java -cp ../bin simulation.FleetSimulatorGUI
+```
